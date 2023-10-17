@@ -1,0 +1,16 @@
+1) wintertime months simulation of successive TCs
+:::: expand WRF and ROMS grid to include more southerly genesis and intensification
+:::: locations of TCS.
+:::: donwload and create WPS processing data for expanded temporal atmospheric data
+:::: rewrite initial conditios of ROMS
+[267,200] >> [0,40 : 110,150]?
+[334,267] >> [-5,40 : 110,160]?
+
+
+2) check effect of ocean resolution on subsurface response to TC.
+3) check model validity, make sure SSH results are similar to observations,
+ particularly for prior to TC passage, and see if there is a difference in the SSH
+ for post passage.
+4) check the reason for the subsurface response to TC (separate heat fluxes) and 
+ see if there's any reason for the nontypical response. 
+5) check the actual depth of the response, make sure it's actually accurate.
